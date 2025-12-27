@@ -29,7 +29,7 @@ print(even_nums)
 
 nums = [12, 55, 7, 89, 45, 100]
 
-greater = list(filter(lambda x: x > 50, nums))
+greater = list(filter(lambda x: x > 70, nums))
 print(greater)
 
 
@@ -121,7 +121,7 @@ print(adults)
 
 nums = range(1, 101)
 
-divisible = list(filter(lambda x: x % 3 == 0 and x % 5 == 0, nums))
+divisible = list(filter(lambda x: x % 4 == 0 and x % 6 == 0, nums))
 print(divisible)
 
 
@@ -135,4 +135,5 @@ words = ["silent", "enlist", "google", "inlets"]
 
 anagrams = list(filter(lambda x: sorted(x) == sorted("listen"), words))
 print(anagrams)
+
 
