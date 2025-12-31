@@ -18,4 +18,5 @@ Output = (food + monthly_rent + how_much_units_spend + (charge_per_unit * 30)) /
 print("Total rent for the month is: ", Total_rent)
 print("Each person has to pay: ", Output)
 print("Thank you !!")
+print("Exit")
 
