@@ -98,7 +98,6 @@ class StudentManagementSystem:
         print("2. View Student by ID")
         print("3. Display All Students")
         print("4. Exit")
-        print("===================================")
 
 
 def main():
