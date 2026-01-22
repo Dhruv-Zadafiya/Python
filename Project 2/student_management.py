@@ -93,7 +93,7 @@ class StudentManagementSystem:
 
     @staticmethod
     def menu():
-        print("\n======= Student Management System =======")
+        print("\n Student Management System  ")
         print("1. Add Student")
         print("2. View Student by ID")
         print("3. Display All Students")
