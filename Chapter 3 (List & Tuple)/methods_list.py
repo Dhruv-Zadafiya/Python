@@ -5,7 +5,6 @@ print(Basket[3])
 Basket.append("Mango")
 print(Basket)
 
-# Methods of list
 
 Marks=[85, 90, 78, 92, 88]
 print(Marks.index(90))

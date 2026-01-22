@@ -1,11 +1,5 @@
 a=(1,2.5689,3654, "Dhruv","Maanoj","Shivam",False)
 
-# print(a)
-
-# print(type(a))
-# no = a.count(1)
-
-# print(no)
-
-# i=  a.index("Dhruv")
-# print(i)
+print(round(a[1],2))  
+print(a[2]+100)
+print(a[3][0:3])
