@@ -1,6 +1,4 @@
-# Program to convert inches to meters
 
-# 1 inch = 0.0254 meters
 INCH_TO_METER = 0.0254
 
 def inches_to_meters(inches):

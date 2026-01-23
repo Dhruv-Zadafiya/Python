@@ -31,8 +31,7 @@ Marks.sort()
 print(Marks)
 
 
-
-# Problem 2:
+#P2
 
 list=[12,13,58,69]
 

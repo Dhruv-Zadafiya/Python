@@ -1,3 +1,4 @@
+# This is Simple Rent calculator Program
 print("Welcome to Simple Rent Calculator")
 monthly_rent = int(input("Enter the monthly  Flat rent amount: "))
 
