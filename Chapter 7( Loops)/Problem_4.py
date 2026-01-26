@@ -5,3 +5,23 @@ product=1
 for i in range(1, n+1):
     product= product * i
 print(f"The product of {n} is {product}")
+
+
+for i in range(1, 11):
+    print(f"{n} x {i} = {n*i}")
+
+sum=0
+
+for i in range(1, n+1):
+    sum= sum + i
+print(f"The sum of first {n} natural numbers is {sum}")
+for i in range(1, n+1):
+    if i%2!=0:
+        print(i, end=" ")
+for i in range(1, n+1):
+    if i%2==0:
+        print(i, end=" ")
+factorial=1
+for i in range(1, n+1):
+    factorial= factorial * i
+print(f"The factorial of {n} is {factorial}")
