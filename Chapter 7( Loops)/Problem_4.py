@@ -39,3 +39,13 @@ for i in range(1, n+1):
         count+=1
 print(f"The number of factors of {n} is {count}")
 print(f"The factors of {n} are: ", end="")
+
+
+for i in range(1, n+1):
+    if n%i==0:
+        print(i, end=" ")
+print()
+if count==2:
+    print(f"{n} is a prime number")
+else:
+    print(f"{n} is not a prime number")
