@@ -25,3 +25,17 @@ factorial=1
 for i in range(1, n+1):
     factorial= factorial * i
 print(f"The factorial of {n} is {factorial}")
+
+
+for i in range(1, n+1):
+    if n%i==0:
+        print(i, end=" ")
+for i in range(1, n+1):
+    if n%i!=0:
+        print(i, end=" ")
+count=0
+for i in range(1, n+1):
+    if n%i==0:
+        count+=1
+print(f"The number of factors of {n} is {count}")
+print(f"The factors of {n} are: ", end="")
